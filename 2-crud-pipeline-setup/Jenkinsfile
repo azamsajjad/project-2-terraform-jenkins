@@ -41,8 +41,8 @@ pipeline {
             }
         }
 
-        stage {
-            steps{
+        stage('Terraform Apply') {
+            steps {
                 script {
                     if (params.APPLY_TERRAFORM) {
                         withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-credentials-rupert']]){
@@ -56,7 +56,7 @@ pipeline {
             }
         }
 
-        stage {
+        stage('Terraform Destroy') {
             steps {
                 script {
                     if (params.DESTROY_TERRAFORM) {

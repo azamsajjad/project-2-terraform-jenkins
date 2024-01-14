@@ -19,7 +19,7 @@ pipeline {
             steps {
                 withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-credentials-rupert']]){
                     dir('2-crud-pipeline-setup/infra') {
-                        sh 'echo "===========================TERRAFORM INIT=================================='
+                        sh 'echo "===========================TERRAFORM INIT=================================="'
                         sh 'terraform init'
                     }
                 }

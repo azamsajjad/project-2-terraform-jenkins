@@ -36,20 +36,20 @@ variable "ami_owner_name" {
 
 
 
-variable "bucket_name" {
-  type        = string
-  description = "Remote state bucket name"
-}
+# variable "bucket_name" {
+#   type        = string
+#   description = "Remote state bucket name"
+# }
 
-variable "name" {
-  type        = string
-  description = "Tag name"
-}
+# variable "name" {
+#   type        = string
+#   description = "Tag name"
+# }
 
-variable "environment" {
-  type        = string
-  description = "Environment name"
-}
+# variable "environment" {
+#   type        = string
+#   description = "Environment name"
+# }
 
 
 

@@ -66,8 +66,8 @@ module "alb" {
   lb_listener_default_action       = "forward"
   lb_listener_port_https           = 443
   lb_listener_protocol_https       = "HTTPS"
-  devops_project_1_acm_arn        = module.aws_certificate_manager.devops_project_1_acm_arn
-  lb_target_group_attachment_port = 8080
+  devops_project_1_acm_arn        = module.aws_certificate_manager.devops_project_1_app_acm_arn
+  lb_target_group_attachment_port = 5000
 }
 
 module "hosted_zone_route53" {

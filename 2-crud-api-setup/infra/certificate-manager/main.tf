@@ -3,7 +3,7 @@ variable "hosted_zone_id" {}
 
 
 
-output "devops_project_1_acm_arn" {
+output "devops_project_1_app_acm_arn" {
     value = aws_acm_certificate.devops_project_1_acm.arn
 }
 

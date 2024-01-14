@@ -9,7 +9,7 @@ ami_image_name = "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"
 ami_owner_name = "099720109477"
 
 
-bucket_name = "dev-project-1-app-remote-state-bucket"
+bucket_name = "dev-project-1-app-remote-state-bucket-west"
 name        = "environment"
 environment = "dev-1"
 domain_name = "app.azamsajjad.com"

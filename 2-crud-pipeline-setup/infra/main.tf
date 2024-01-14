@@ -28,7 +28,7 @@ module "ec2" {
   ami_image_name                       = var.ami_image_name
   ami_owner_name                       = var.ami_owner_name
   instance_type                        = "t3.micro"
-  tag_name                             = "App:Ubuntu Linux EC2"
+  tag_name                             = "App1:Ubuntu Linux EC2"
   subnet_id                            = tolist(module.networking.devops_project_app_public_subnets)[0]
   devops_project_app_sg_id            = module.security_group.devops_project_app_sg_id
   devops_project_app_sg_for_python_id = module.security_group.devops_project_app_sg_for_python_id

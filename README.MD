@@ -94,7 +94,7 @@ The Jenkins pipeline is defined in the `Jenkinsfile` in the `2-Pipeline_Setup/` 
 
 ### Step 3: Application Code
 
-In the [Step3_Application_Code](3-Application_Code/) folder, you will find the application code itself. It is a basic CRUD REST API with Python Flask.
+In the [Step3_Application_Code](3-Application_Code/) folder, you will find the application code itself. It is a basic CRUD REST API with Python Flask. This is just sample code, you can switch it up with any node express application and it will work just fine, our infrastructure will remain the same.
 
 ## Usage
 

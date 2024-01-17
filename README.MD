@@ -84,7 +84,7 @@ Follow the Jenkins pipeline section to set up the CI/CD pipeline for this projec
 
 ### Step 2: Jenkins Pipeline Configuration and Infrastructure Provisioning for Application
 
-Move to the [Step2_Pipeline_Setup]_A(2-Pipeline_Setup/) folder to find instructions on provisioning infrastructure for the application using Jenkinsfile. This step focuses on creating a Jenkins job that automates tasks such as building, testing, and deploying your application.
+Move to the [Step2_Pipeline_Setup](2-Pipeline_Setup/) folder to find instructions on provisioning infrastructure for the application using Jenkinsfile. This step focuses on creating a Jenkins job that automates tasks such as building, testing, and deploying your application.
 
 The Jenkins pipeline is defined in the `Jenkinsfile` in the `2-Pipeline_Setup/` directory. This pipeline automates the build, test, and deployment processes. Ensure that your Jenkins server is properly configured, and the required plugins are installed.
 
